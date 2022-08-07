@@ -7,4 +7,6 @@ public interface HistoryManager {
 
     public List<Task>  getHistory ();
 
+    public void printHistory();
+
 }

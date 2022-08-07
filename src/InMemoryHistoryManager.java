@@ -22,6 +22,8 @@ public class InMemoryHistoryManager implements HistoryManager {
         return history;
     }
 
+
+    @Override
     public void printHistory() {        // вспомогательный метод для контроля и визуализации работы програмы :-)
         System.out.println("\n История просмоторов:");
         for (int j = history.size(); j >= 1; j--) {

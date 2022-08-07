@@ -142,7 +142,7 @@ public class Main {
         taskManager.getTaskById(8);
 
         System.out.println("\nОтображение истории обращения к элементам");
-        historyManager.printHistory();
-        System.out.println(historyManager.getHistory().size());
+       taskManager.historyManager.printHistory();
+        System.out.println(taskManager.historyManager.getHistory().size());
     }
 }
