@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public interface HistoryManager {
@@ -7,6 +6,6 @@ public interface HistoryManager {
 
     public List<Task>  getHistory ();
 
-    public void printHistory();
+    public void printHistory();   // вспомогательный метод для контроля и визуализации работы програмы
 
 }

@@ -1,10 +1,7 @@
-import java.util.List;
-import java.util.Map;
 
 public class Main {
     public static void main(String args[]) {
 
-        Managers managers = new Managers();
         InMemoryTaskManager taskManager = (InMemoryTaskManager) Managers.getDefault();
 
 /**
@@ -119,7 +116,6 @@ public class Main {
         // taskManager.deleteAllEpicTasks();       // закомментировано для проверки задания Спринта №4
         taskManager.getAllEpiTask();
 
-
 /**
  Спринт 4
  */
@@ -140,9 +136,7 @@ public class Main {
         taskManager.getTaskById(8);
         taskManager.getTaskById(8);
         taskManager.getTaskById(8);
-
         System.out.println("\nОтображение истории обращения к элементам");
-       taskManager.historyManager.printHistory();
-        System.out.println(taskManager.historyManager.getHistory().size());
-    }
+        taskManager.historyManager.printHistory();
+        }
 }
